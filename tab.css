@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    margin: auto;
+   background-color:rgb(187, 255, 0);
+}
+.header
+{
+    height: 150px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.logo
+{
+    width:30%;
+    height: 150px;
+    background-color: cornsilk;
+   
+    border: 1px solid red;
+    float: left;
+    display: inline-block;
+
+}
+
+.right
+{
+    width: 69.6%;
+    height: 150px;
+    border: 1px solid green;
+    background-color:blue;
+    float:left;
+    background-color:blue;
+
+  
+}
+
+.rbox{
+    height: 60px;
+    width: 80px;
+    margin: 15px;
+    
+    
+    border: 1px solid red;
+float: right;
+font-style: none;
+}
+
+li.rbox{
+    list-style: none;
+    background-color: red;
+
+}
+
+
+.division
+{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+.first
+{
+    width:33.3%;
+    height: 300px;
+    float: left;
+    background-color: red;
+    
+
+}
+.second
+{
+    width: 33.3%;
+    height: 300px;
+    float: left; 
+    background-color: yellow;
+}
+
+
+.third
+{
+    width: 33.4%;
+    height: 300px;
+    float: left; 
+    background-color: green; 
+}
+
+.thirdHalf
+{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+}
+.th1
+{
+    width: 30%;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.th2
+{
+    width: 70%;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+
+.f1
+{ width: 33.3%;
+    height: 200px;
+    background-color: red;
+    float: left;
+
+}
+.f2
+{ width: 33.3%;
+    height: 200px;
+    background-color:blue;
+    float: left;
+
+}
+.f3
+{ width: 33.3%;
+    height: 200px;
+    background-color:green;
+    float: left;
+
+}
+
+.fourth
+{
+    width:100%;
+    height: 400px;
+    background-color: yellow;
+    padding: 50px 0px;
+    border: 1px solid red;
+}
+
+.block
+{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    margin:175px auto;
+    border: 1px solid red;
+}
+
+footer
+{
+    width: 100%;
+    height:80px;
+    background-color: grey;
+}
+
+
+footer
+{border: 1px solid red;
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width :1024px)
+{
+
+
+    .header
+{
+    height: 400px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+    .logo
+{
+    width: 100%;
+    height: 100px;
+    background-color: cornsilk;
+   
+    border: 1px solid red;
+    float: none;
+    /* display: inline-block; */
+
+}
+
+.right
+{
+    width: 100%;
+    height: 300px;
+    border: 1px solid green;
+    background-color:blue;
+    float:none;
+    background-color:blue;
+
+  
+}
+
+.rbox{
+    height: 50px;
+    width: 100%;
+    margin: 1px;
+    
+    
+    border: 1px solid red;
+float: none;
+font-style: none;
+}
+
+li.rbox{
+    height: 2px;
+    list-style: none;
+    background-color: red;
+
+}
+
+
+.division
+{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+.first
+{
+    width:100%;
+    height: 100px;
+    float: none;
+    background-color: red;
+    
+
+}
+
+
+.second
+{
+    width: 100%;
+    height: 100px;
+    float: none; 
+    background-color: yellow;
+}
+
+
+.third
+{
+    width: 100%;
+    height: 100px;
+    float: none; 
+    background-color: green; 
+}
+
+.thirdHalf
+{
+    width: 100%;
+    height: 400px;
+    background-color:black;
+}
+.th1
+{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    float: none;
+}
+
+.th2
+{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    float: none;
+}
+
+.f1
+{ width: 100%;
+    height: 100px;
+    background-color: red;
+    float: none;
+
+}
+.f2
+{ width: 100%;
+    height: 100px;
+    background-color:blue;
+    float: none;
+
+}
+.f3
+{ width: 100%;
+    height: 100px;
+    background-color:green;
+    float: none;
+
+}
+
+.fourth
+{
+    width:100%;
+    height: 200px;
+    background-color: yellow;
+    padding: 95px 0px;
+    border: 1px solid red;
+}
+
+.block
+{
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    margin: 50px auto;
+    border: 1px solid red;
+}
+
+footer
+{
+    width: 100%;
+    height:200px;
+    background-color: grey;
+}
+
+
+footer
+{border: 1px solid red;
+}
+
+   }
+
+@media only screen and (min-width:320px) and (max-width :767px)
+{
+
+
+    .header
+{
+    height: 400px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+    .logo
+{
+    width: 100%;
+    height: 100px;
+    background-color: cornsilk;
+   
+    border: 1px solid red;
+    float: none;
+    /* display: inline-block; */
+
+}
+
+.right
+{
+    width: 100%;
+    height: 300px;
+    border: 1px solid green;
+    background-color:blue;
+    float:none;
+    background-color:blue;
+
+  
+}
+
+.rbox{
+    height: 50px;
+    width: 100%;
+    margin: 1px;
+    
+    
+    border: 1px solid red;
+float: none;
+font-style: none;
+}
+
+li.rbox{
+    height: 2px;
+    list-style: none;
+    background-color: red;
+
+}
+
+
+.division
+{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+.first
+{
+    width:100%;
+    height: 100px;
+    float: none;
+    background-color: red;
+    
+
+}
+
+
+.second
+{
+    width: 100%;
+    height: 100px;
+    float: none; 
+    background-color: yellow;
+}
+
+
+.third
+{
+    width: 100%;
+    height: 100px;
+    float: none; 
+    background-color: green; 
+}
+
+.thirdHalf
+{
+    width: 100%;
+    height: 400px;
+    background-color:black;
+}
+.th1
+{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    float: none;
+}
+
+.th2
+{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    float: none;
+}
+
+.f1
+{ width: 100%;
+    height: 100px;
+    background-color: red;
+    float: none;
+
+}
+.f2
+{ width: 100%;
+    height: 100px;
+    background-color:blue;
+    float: none;
+
+}
+.f3
+{ width: 100%;
+    height: 100px;
+    background-color:green;
+    float: none;
+
+}
+
+.fourth
+{
+    width:100%;
+    height: 200px;
+    background-color: yellow;
+    padding: 95px 0px;
+    border: 1px solid red;
+}
+
+.block
+{
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    margin: 50px auto;
+    border: 1px solid red;
+}
+
+footer
+{
+    width: 100%;
+    height:200px;
+    background-color: grey;
+}
+
+
+footer
+{border: 1px solid red;
+}
+
+   }
+    

@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+    height: 149px;
+    padding: 10px;
+    border: 1px solid red;
+
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-style: solid;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: greenyellow;
+}
+
+div.gallery {
+    /* margin: 1px; */
+    height: 300px;
+    border: 1px solid red;
+    float: left;
+    width: 33.3%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4.abs {
+    margin: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+input[type=text] {
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+li.cool {
+    border: 1px solid red;
+    background-color: yellow;
+    height: 50px;
+    width: 70px;
+    margin: 0px 10px;
+}
+
+.hey {
+    border: 1px solid red;
+    height: 300px;
+    width: 100%;
+}
+
+.a1 {
+    border: 1px solid red;
+    height: 300px;
+    width: 30%;
+    float: left;
+    background-color: blue;
+}
+
+.b1 {
+    border: 1px solid red;
+    height: 300px;
+    width: 70%;
+    float: right;
+    background-color: black;
+}
+
+.b2 {
+    border: 1px solid red;
+    height: 300px;
+    width: 33.3%;
+    float: left;
+    background-color: red;
+}
+
+.b3 {
+    border: 1px solid red;
+    height: 300px;
+    width: 33.3%;
+    float: left;
+    background-color: yellow;
+}
+
+.b4 {
+    border: 1px solid red;
+    height: 300px;
+    width: 33.3%;
+    float: right;
+    background-color: green;
+}
+
+.how {
+    width: 100%;
+    background-color: yellow;
+    height: 400px;
+    padding: 50px 0px;
+}
+
+.what {
+    width: 300px;
+    background-color: black;
+    height: 300px;
+    margin: 0px auto;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px)
+{ 
+    .row{
+       width: 100%;
+    }
+
+}
